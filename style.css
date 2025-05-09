@@ -1,0 +1,33 @@
+body {
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.badge {
+    display: inline-flex;
+    border: 1px solid #d1d5da;
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 14px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    background-color: #555;
+    color: white;
+    padding: 4px 8px;
+}
+
+.value {
+    background-color: white;
+    color: black;
+    border-left: 1px solid #d1d5da;
+    padding: 4px 8px;
+    border: 2px solid red;
+    border-radius: 0 4px 4px 0;
+}
