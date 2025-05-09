@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>CustomHint Stats</title>
-    <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CustomHint Stats</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="badge">
-        <span class="label">Used on</span>
-        <span class="value" id="server-count">0 servers</span>
-    </div>
+  <div class="badge" id="badge">
+    <div class="label">Used on</div>
+    <div class="value" id="server-count">0 servers</div>
+  </div>
 
-    <script src="script.js"></script>
+  <button onclick="exportHtmlToSvg('#badge')">Export as SVG</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
