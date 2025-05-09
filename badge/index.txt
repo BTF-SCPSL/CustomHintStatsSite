@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="refresh" content="0; url=/CustomHintStatsSite/badge.svg">
+    <meta name="robots" content="noindex">
+  </head>
+  <body>
+    <p>Redirecting to badge...</p>
+  </body>
+</html>
