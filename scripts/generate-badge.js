@@ -1,7 +1,7 @@
+const http = require('http');
 const fs = require('fs');
-const https = require('http');
 
-const API_URL = 'http://your-server-ip:8080/connections';
+const API_URL = 'http://8.8.8.8:8080/connections';
 
 function fetchConnections(callback) {
   const req = http.get(API_URL, res => {
